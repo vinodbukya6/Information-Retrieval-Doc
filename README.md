@@ -19,6 +19,7 @@ Open-domain systems deal with questions about nearly anything, and can only rely
 CDQA System Architecture:
 
 (Source:https://towardsdatascience.com/how-to-create-your-own-question-answering-system-easily-with-python-2ef8abc8eb5)
+
 The cdQA architecture is based on two main components: the Retriever and the Reader. You can see below a schema of the system mechanism.
 Retriever:
 When a question is sent to the system, the Retriever selects a list of documents in the database that are the most likely to contain the answer, which creates TF-IDF features based on uni-grams and bi-grams and compute the cosine similarity between the question sentence and each document of the database.
